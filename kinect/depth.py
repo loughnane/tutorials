@@ -26,10 +26,10 @@ channels = {
             'depth_map':    {'value':0},
             'point_cloud':  {'value':1},
             'disparity':    {'value':2},
-            'disparity_32f':{'value':3},
+            # 'disparity_32f':{'value':3},
             'valid_depth':  {'value':4},
-            'bgr':          {'value':5},
-            'gray':         {'value':6}}
+            'bgr':          {'value':5}}
+            # 'gray':         {'value':6}}
 
 for channel,params in channels.iteritems():
     print 'creating writer for {}'.format(channel)
